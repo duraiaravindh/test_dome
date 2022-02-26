@@ -1,0 +1,114 @@
+.App {
+  font-family: Fantasy,Papyrus;
+  text-align: center;
+}
+h1 {
+  color: royalblue;
+  font-family: Arial, Helvetica, sans-serif;;
+  font-style: italic;
+  background-color: ;
+}
+.mve{
+  color: white;
+  font-size: 30px;
+}
+.ctn{
+  color: white;
+  
+
+}
+body {
+  background-color: black;
+  padding: 30px;
+}
+img {
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.rate{
+  color: yellow;
+}
+
+.btn{
+  font-size:24px;
+  cursor: pointer
+
+}
+
+
+.movie-specs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-rating{
+  color: white;
+  cursor: pointer
+}
+
+.movie-overview{
+  color: white
+}
+
+.movie-container{
+  width: 350px;
+  padding: 10px;
+}
+
+img{
+  width: 340px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.movie-overview{
+  margin: 0;
+}
+
+.movie-rating{
+  font-size: 24px;
+}
+
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.counter-container{
+display: flex;
+gap:10px ;
+justify-content: center;
+padding: 10px;
+}
+
+.add-clr{
+  display: flex;
+}
+
+.btn-bg {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.btn-style{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.nme{
+  font-family: Fantasy,Papyrus;
+  color: red;
+  font-size: 50px;
+}

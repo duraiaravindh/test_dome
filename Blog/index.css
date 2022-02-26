@@ -1,0 +1,19 @@
+body{
+    background-color:lightgrey;
+}
+.fa{
+    color:lightskyblue;
+}
+.box-part{
+    background-color: white;
+    padding: 50px 10px;
+    margin: 30px 0px;
+}
+a{
+    border-bottom: 2px solid black;
+}
+
+.main{
+    display: flex;
+    flex-wrap:nowrap;
+}

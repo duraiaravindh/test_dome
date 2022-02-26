@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+<body>
+    <script src="class.js"></script>
+    <div class="container">
+        <form>
+            <label for="fName" >First Name</label><br>
+            <input type="text" id="first-name" name="fName" placeholder="" required>
+            <br><br>
+            <label for="SName" >Last Name</label><br>
+            <input type="text" id="last-name" name="LName" placeholder="" required>
+            <br><br>
+            <label for="address">Address</label><br>
+            <input type="text" id="address" name="address" required>
+            <br><br>
+            <label for="pincode">Pincode</label><br>
+            <input type="text" id="pincode" name="pincode" required>
+            <br><br>
+            <label for="gender">Gender</label><br>
+            <input type="text" id="gender" name="gender" required>
+            <br><br>
+            <label for="gender">Choice of Food</label><br>
+            <input type="number" id="food" min="1" name="food" required>    
+            <br><br>
+            <label for="gender">State</label><br>
+            <input type="text" id="state" name="state" required>
+            <br><br>
+            <label for="gender">Country</label><br>
+            <input type="text" id="country" name="country" required>
+            <br><br>
+            <input type="button" value="submit" onclick="myfunc()">
+        </form> 
+    </div>
+    <br>
+    <div class="table">
+        <table border="2" id="myTable">
+            <tr>
+                <td>First name</td>
+                <td>Last name</td>
+                <td>Address</td>
+                <td>Pincode</td>
+                <td>Gender</td>
+                <td>Food</td>
+                <td>State</td>
+                <td>Country</td>
+            </tr>
+        </table>
+    </div>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>

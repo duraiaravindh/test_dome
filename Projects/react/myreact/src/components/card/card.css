@@ -1,0 +1,25 @@
+.card-wrapper{
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border:1px solid blue;
+    margin: 5px;
+    display: inline-block;
+    min-width: 200px;
+    text-align: center;
+}
+
+.card-wrapper > h3{
+margin: 0;
+margin-bottom: 5px;
+}
+
+.card-wrapper > img{
+    height: 80px;
+    width: auto;
+    }
+
+.card-wrapper > p{
+    margin: 0;
+    margin-bottom: 5px;
+    }
