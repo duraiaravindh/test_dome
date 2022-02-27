@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+const INIT_COLORLIST  =["orange", "Red", "skyblue"]
+
 // Color box
 export function Addcolor() {
   const [Color, setColor] = useState("pink");
@@ -9,7 +11,7 @@ export function Addcolor() {
   };
 
 
-  const [colorList, setcolorList] = useState(["orange", "Red", "skyblue"]);
+  const [colorList, setcolorList] = useState(INIT_COLORLIST);
 
   return (
 <div>
